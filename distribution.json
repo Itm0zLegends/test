@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "1234567890",
+    "smallImageText": "AzuriteMC - 1.9.4",
+    "smallImageKey": "azurite-logo"
+  },
+  "java": {
+    "oracle": "https://www.java.com/fr/download/"
+  },
+  "servers": [
+    {
+      "id": "azurite-server",
+      "mainServer": true,
+      "autoConnect": false,
+      "address": "azuritemc.falixsrv.me",
+      "discord": {
+        "largeImageText": "AzuriteMC - 1.9.4",
+        "largeImageKey": "azurite-logo"
+      },
+      "minecraft": {
+        "version": "1.9.4",
+        "modded": false,
+        "launchArgs": [],
+        "mainClass": "net.minecraft.client.main.Main",
+        "assets": "1.9.4",
+        "libraries": [],
+        "mainJar": {
+          "name": "1.9.4.jar",
+          "url": "https://launcher.mojang.com/v1/objects/34b17378db618b2361c2d3c6e2e26f6f2a60b86e/client.jar",
+          "sha1": "34b17378db618b2361c2d3c6e2e26f6f2a60b86e",
+          "size": 6500000
+        }
+      },
+      "modules": [
+        {
+          "id": "net.minecraft:1.9.4",
+          "name": "Minecraft 1.9.4",
+          "type": "vanilla",
+          "artifact": {
+            "size": 6500000,
+            "sha1": "34b17378db618b2361c2d3c6e2e26f6f2a60b86e",
+            "url": "https://launcher.mojang.com/v1/objects/34b17378db618b2361c2d3c6e2e26f6f2a60b86e/client.jar"
+          },
+          "subModules": []
+        }
+      ]
+    }
+  ]
+}
