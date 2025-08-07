@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "1086936373057040395",
+    "smallImageText": "AzuriteMC - Fabric 1.9.4",
+    "smallImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "azurite-fabric-1.9.4",
+      "name": "AzuriteMC - Fabric 1.9.4",
+      "description": "Serveur en 1.9.4 avec Fabric",
+      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.9.4/Demo-1.9.4.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.9.4",
+      "discord": {
+        "shortId": "fabric-1.9.4",
+        "largeImageKey": "fabric",
+        "largeImageText": "AzuriteMC - Fabric 1.9.4"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraft:1.9.4",
+          "name": "Minecraft 1.9.4",
+          "type": "custom",
+          "artifact": {
+            "size": 6500000,
+            "sha1": "34b17378db618b2361c2d3c6e2e26f6f2a60b86e",
+            "url": "https://launcher.mojang.com/v1/objects/34b17378db618b2361c2d3c6e2e26f6f2a60b86e/client.jar"
+          },
+          "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+          "libraries": [
+            {
+              "name": "net.fabricmc:fabric-loader:0.14.14",
+              "url": "https://maven.fabricmc.net/",
+              "downloads": {
+                "artifact": {
+                  "path": "net/fabricmc/fabric-loader/0.14.14/fabric-loader-0.14.14.jar",
+                  "sha1": "1c2df76cd0f10a3dc4b83c02ae4de5b8a190c798",
+                  "size": 305000
+                }
+              }
+            }
+          ],
+          "subModules": []
+        }
+      ]
+    }
+  ]
+}
