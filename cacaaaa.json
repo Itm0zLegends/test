@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
+  "discord": {
+    "clientId": "1086936373057040395",
+    "smallImageText": "Change me through Nebula",
+    "smallImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "1.9.4",
+      "name": "Minecraft 1.9.4",
+      "description": "Demo Running Minecraft 1.9.4 (Forge v45.0.9)",
+      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.9.4/Demo-1.9.4.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.9.4",
+      "discord": {
+        "shortId": "1.9.4",
+        "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
+        "largeImageText": "forge-vanilla"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraft:1.9.4",
+          "name": "Minecraft 1.9.4",
+          "type": "vanilla",
+          "artifact": {
+            "size": 6500000,
+            "sha1": "34b17378db618b2361c2d3c6e2e26f6f2a60b86e",
+            "url": "https://launcher.mojang.com/v1/objects/34b17378db618b2361c2d3c6e2e26f6f2a60b86e/client.jar"
+          },
+          "subModules": []
+        }
+      ]
+    }
+  ]
+}
