@@ -24,7 +24,7 @@
           "name": "Minecraft 1.9.4",
           "type": "vanilla",
           "artifact": {
-            "url": "https://launcher.mojang.com/v1/objects/34b17378db618b2361c2d3c6e2e26f6f2a60b86e/client.jar"
+            "url": "https://github.com/Itm0zLegends/test/blob/main/client.jar"
           },
           "subModules": []
         }
