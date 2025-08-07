@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "1234567890",
+    "smallImageText": "AzuriteMC - 1.9.4",
+    "smallImageKey": "azurite-logo"
+  },
+  "servers": [
+    {
+      "id": "azurite-server",
+      "name": "AzuriteMC",
+      "description": "Serveur Vanilla 1.9.4",
+      "mainServer": true,
+      "autoconnect": false,
+      "address": "azuritemc.falixsrv.me",
+      "discord": {
+        "largeImageText": "AzuriteMC - 1.9.4",
+        "largeImageKey": "azurite-logo"
+      },
+      "minecraftVersion": "1.9.4",
+      "modules": [
+        {
+          "id": "net.minecraft:1.9.4",
+          "name": "Minecraft 1.9.4",
+          "type": "vanilla",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/Itm0zLegends/test/refs/heads/main/client.jar"
+          },
+          "subModules": []
+        }
+      ]
+    }
+  ]
+}
