@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
+  "discord": {
+    "clientId": "1086936373057040395",
+    "smallImageKey": "big",
+    "smallImageText": "AzuriteMC 1.9.4"
+  },
+  "servers": [
+    {
+      "id": "1.9.4-forge",
+      "name": "AzuriteMC 1.9.4 Forge",
+      "description": "Serveur AzuritePVP Faction Forge 1.9.4",
+      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.9.4/Demo-1.9.4.png",
+      "version": "1.0.0",
+      "address": "azuritemc.falixsrv.me",
+      "minecraftVersion": "1.9.4-forge1.9.4-12.17.0.2317-1.9.4",
+      "discord": {
+        "shortId": "1.9.4-forge",
+        "largeImageKey": "big",
+        "largeImageText": "Forge 1.9.4"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.9.4-12.17.0.2317",
+          "name": "Minecraft Forge 1.9.4-12.17.0.2317",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 1196222,
+            "MD5": "64bc1bba39c50da2cc8d37bc1696540b",
+            "url": "https://raw.githubusercontent.com/Itm0zLegends/test/refs/heads/main/1.9.4-forge1.9.4-12.17.0.2317-1.9.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:versionManifest:1.9.4-forge1.9.4-12.17.0.2317-1.9.4",
+              "name": "Forge Version Manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 4326,
+                "MD5": "8039db9282616c00ad278c1861f6d76b",
+                "url": "https://raw.githubusercontent.com/Itm0zLegends/test/refs/heads/main/1.9.4-forge1.9.4-12.17.0.2317-1.9.4.json"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
