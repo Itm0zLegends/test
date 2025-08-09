@@ -1,0 +1,51 @@
+{
+    "version": "1.0.0",
+    "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
+    "discord": {
+        "clientId": "1086936373057040395",
+        "smallImageKey": "big",
+        "smallImageText": "AzuriteMC 1.9.4"
+    },
+    "servers": [
+        {
+            "id": "1.9.4-forge",
+            "name": "AzuriteMC 1.9.4 Forge",
+            "description": "Serveur AzuritePVP Faction Forge 1.9.4",
+            "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.9.4/Demo-1.9.4.png",
+            "version": "1.0.0",
+            "address": "azuritemc.falixsrv.me",
+            "minecraftVersion": "1.9.4-forge1.9.4-12.17.0.2317",
+            "discord": {
+                "shortId": "1.9.4-forge",
+                "largeImageKey": "big",
+                "largeImageText": "Forge 1.9.4"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "name": "Minecraft Forge 1.11.2-13.20.1.2429",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 4450992,
+                        "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LaunchWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32999,
+                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
